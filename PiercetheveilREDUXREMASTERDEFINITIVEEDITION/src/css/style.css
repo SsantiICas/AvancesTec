@@ -1,0 +1,98 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+
+    background-color: rgb(51, 65, 28);
+}
+p{
+    color: white;
+    text-indent: 30px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+h2{
+    color: white;
+    text-indent: 20px;
+}
+li{
+    color: white;
+}
+table, th, td {
+    border: 1px solid black;
+    color: white;
+    border-width: 2px;
+
+}
+table{
+    margin: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    padding: 8px;
+
+}
+video{
+    width: 20%;
+    height: 20%;
+}
+hr{
+    border: 1px solid  black;
+}
+h3{
+    color: white;
+    text-indent: 20px;
+}
+a{
+    color: wheat;
+}
+fieldset{
+    color: black;
+    border: 2px solid black;
+    margin: 5px;
+}
+label, textarea{
+    color: black
+}
+header{
+    background-color: rgb(29, 41, 10);
+    height: 70px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+/* Animaciones de entrada */
+.hidden {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease-out;
+}
+.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Modo oscuro adicional */
+body.dark-mode {
+    background-color: #111;
+    color: #ddd;
+}
+body.dark-mode p,
+body.dark-mode li,
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode a {
+    color: #ccc;
+}
+body.dark-mode table,
+body.dark-mode th,
+body.dark-mode td {
+    border-color: #888;
+}
+body.dark-mode header {
+    background-color: #222;
+}
